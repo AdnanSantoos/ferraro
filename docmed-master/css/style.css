@@ -3651,7 +3651,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #ff5e13;
+  border-left: 2px solid #efc168;
 }
 
 /* line 353, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_elements.scss */
@@ -3806,7 +3806,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #ff5e13;
+  border: 3px solid #efc168;
   background: #fff;
   top: 4px;
   left: 0;
@@ -3821,7 +3821,7 @@ h6 {
 /* line 475, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #ff5e13;
+  color: #efc168;
   font-weight: 500;
   line-height: 1.82em !important;
 }
