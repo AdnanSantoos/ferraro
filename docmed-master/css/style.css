@@ -1259,8 +1259,7 @@ h3 {
 .slider_area .single_slider .slider_text h3 {
   color: #1F1F1F;
   font-family: "Poppins", sans-serif;
-  /*Mudei esse font size, é o texto da home "Um futuro..." by: IgorSantos*/
-  font-size: 40px;
+  font-size: 42px;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 300;
@@ -1296,7 +1295,7 @@ h3 {
 
 /* line 39, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 400;
   color: #727272;
   margin-bottom: 40px;
@@ -1320,7 +1319,7 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
 .welcome_docmed_area {
   padding-top: 120px;
-  padding-bottom: 220px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 767px) {
@@ -1370,7 +1369,8 @@ h3 {
 .welcome_docmed_area .welcome_thumb .thumb_2 {
   position: absolute;
   bottom: -94px;
-  right: -37px;
+  right: auto;
+  left: 120px;
 }
 
 @media (max-width: 767px) {
@@ -1394,7 +1394,7 @@ h3 {
 
 /* line 39, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
 .welcome_docmed_area .welcome_thumb .thumb_2 img {
-  width: 89%;
+  width: 77%;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -4839,7 +4839,6 @@ h6 {
   margin-bottom: 0px;
   padding-top: 20px;
 }
-
 /* End Latest Blog Area css
 ============================================================================================ */
 /* Causes Area css
@@ -6255,3 +6254,12 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.logo img{
+  width: 170px;
+}
+
+.footer_logo img{
+  width: 260px;
+}

@@ -31,12 +31,12 @@ if(menu.length){
 
 // review-active
 $('.slider_active').owlCarousel({
-  loop:true,
+  loop:false,
   margin:0,
 items:1,
-autoplay:true,
+autoplay:false,
 navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
-  nav:true,
+  nav:false,
 dots:false,
 autoplayHoverPause: true,
 autoplaySpeed: 800,
