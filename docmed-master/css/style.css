@@ -838,7 +838,7 @@ h3 {
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 18px 0;
-  background: #fff;
+  background: linear-gradient(45deg, #d3d2d2, #707070f7);
 }
 
 /* line 31, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
@@ -977,7 +977,7 @@ h3 {
 
 /* line 118, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #727272;
+  color: #ffffff;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
@@ -1131,7 +1131,7 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.96);
+  background: linear-gradient(45deg, #d3d2d2, #707070f7);
 }
 
 @media (max-width: 767px) {
@@ -1237,7 +1237,7 @@ h3 {
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner2.jpg);
 }
 
 /* line 8, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
@@ -2232,7 +2232,7 @@ h3 {
 .footer .footer_top {
   padding-top: 145px;
   padding-bottom: 129px;
-  background: #1F1F1F;
+  background: #f5fbff;
 }
 
 @media (max-width: 767px) {
@@ -2261,7 +2261,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 22px;
   font-weight: 400;
-  color: #fff;
+  color: #4D4D4D;
   text-transform: capitalize;
   margin-bottom: 40px;
 }
@@ -2291,13 +2291,13 @@ h3 {
 
 /* line 41, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
-  color: #C7C7C7;
+  color: #4D4D4D;
 }
 
 /* line 44, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
   font-size: 16px;
-  color: #B2B2B2;
+  color: #4D4D4D;
   margin-bottom: 23px;
   font-weight: 400;
   line-height: 28px;
@@ -2305,7 +2305,7 @@ h3 {
 
 /* line 50, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain {
-  color: #B2B2B2;
+  color: #4D4D4D;
   font-weight: 400;
 }
 
@@ -2335,7 +2335,7 @@ h3 {
 /* line 76, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
   font-size: 16px;
-  color: #BABABA;
+  color: #4D4D4D;
   line-height: 42px;
 }
 
@@ -2454,7 +2454,7 @@ h3 {
 
 /* line 163, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
-  color: #fff !important;
+  color: #5DB2FF  !important;
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_bradcam.scss */
@@ -3178,7 +3178,7 @@ h3 {
 
 /* line 61, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_contact.scss */
 .form-contact .form-control {
-  border: 1px solid #e5e6e9;
+  border: 1px solid #a7a7a7;
   border-radius: 0px;
   height: 48px;
   padding-left: 18px;
@@ -4450,7 +4450,7 @@ h6 {
   border: none;
   border-radius: 0px;
   height: 40px;
-  background: #f9f9ff;
+  background: #fff;
   padding-left: 20px;
   padding-right: 40px;
 }
@@ -4512,7 +4512,7 @@ h6 {
   border: none;
   border-radius: 0px;
   height: 40px;
-  background: #f9f9ff;
+  background: #fff;
   padding-left: 45px;
   padding-right: 40px;
   width: 100%;
@@ -4562,6 +4562,9 @@ h6 {
 /* line 1082, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_elements.scss */
 .form-select .nice-select::after {
   right: 20px;
+    right: 20px;
+    top: 4px;
+    color: #a7a7a7;
 }
 
 /* line 1086, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_elements.scss */
@@ -6255,9 +6258,24 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
+.link-icon{
+         display: flex !important;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 19px !important;
+    width: 100% !important;
+    background: none !important;
+}
+.footer .socail_links ul li {
+    display: initial !important;
+}
+.link-icon .link-footer{
+   margin-left: 44px;
+}
 
 .logo img{
-  width: 170px;
+  width: 190px;
 }
 
 .footer_logo img{
