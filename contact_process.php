@@ -1,6 +1,5 @@
 <?php
 
-    $to = "adnanpinho@hotmail.com";
     $from = $_REQUEST['email'];
 	$name = $_REQUEST['name'];
 	$telefone = $_REQUEST['telefone'];
@@ -22,6 +21,7 @@
     $logo = 'img/logo.png';
 	$link = '#';
 	
+	//SIMULAÇÃO DE CONSORCIO
 	if($tipo){
 		$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 		$body .= "<table style='width: 100%;'>";
@@ -36,7 +36,9 @@
 		$body .= "<tr><td></td></tr>";
 		$body .= "</tbody></table>";
 		$body .= "</body></html>";
+		$to = "felipe@ferraroconsultoria.com.br";
 	}
+	// cotação de Seguro
 	else if($ramo){
 		$body = "<!DOCTYPE html><html lang='pt-br'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 		$body .= "<table style='width: 100%;'>";
@@ -49,7 +51,9 @@
 		$body .= "<tr><td></td></tr>";
 		$body .= "</tbody></table>";
 		$body .= "</body></html>";
+		$to = "karine.gama@ferraroconsultoria.com.br";
 	}
+	// CONTATO
 	else if($from){
 		$body = "<!DOCTYPE html><html lang='pt-br'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 		$body .= "<table style='width: 100%;'>";
@@ -63,7 +67,8 @@
 		$body .= "<tr><td></td></tr>";
 		$body .= "</tbody></table>";
 		$body .= "</body></html>";
-	}
+		$to = "felipe@ferraroconsultoria.com.br";
+	} 
 
 	
     $send = mail($to, $subject, $body, $headers);
