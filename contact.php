@@ -135,6 +135,9 @@
     
         <script src="js/main.js"></script>
         <script>
+         $('.button-contactForm').click(function() {
+                alert("Formulário Enviado!! Entraremos em contato com você!")
+            })
             $('#datepicker').datepicker({
                 iconsLibrary: 'fontawesome',
                 icons: {

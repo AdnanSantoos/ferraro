@@ -38,7 +38,7 @@
 		$body .= "</body></html>";
 	}
 	else if($ramo){
-		$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
+		$body = "<!DOCTYPE html><html lang='pt-br'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 		$body .= "<table style='width: 100%;'>";
 		$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 		$body .= "</td></tr></thead><tbody><tr>";
@@ -51,7 +51,7 @@
 		$body .= "</body></html>";
 	}
 	else if($from){
-		$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
+		$body = "<!DOCTYPE html><html lang='pt-br'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 		$body .= "<table style='width: 100%;'>";
 		$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 		$body .= "</td></tr></thead><tbody><tr>";
