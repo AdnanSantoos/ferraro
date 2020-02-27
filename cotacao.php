@@ -84,7 +84,7 @@
                             <div class="form-group">
                                 <div class="input-group-icon form-control">
                                     <div class="form-select" id="default-select">
-                                        <select name="Ramo">
+                                        <select name="ramo">
                                         <option value="" disabled selected>Ramo</option>
                                         <option value="Seguro de Automóvel">Seguro de Automóvel</option>
                                         <option value="Seguro de Vida">Seguro de Vida</option>
