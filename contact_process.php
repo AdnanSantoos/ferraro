@@ -6,7 +6,9 @@
 	$telefone = $_REQUEST['telefone'];
     $subject = $_REQUEST['subject'];
     $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+	$cmessage = $_REQUEST['message'];
+	$tipo = $_REQUEST['tipo'];
+	$valor = $_REQUEST['valor'];
 
     $headers = "From: $from";
 	$headers = "From: " . $from . "\r\n";

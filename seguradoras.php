@@ -124,10 +124,10 @@
                 <div class="col-md-3">
                     <div class="single_department">
                         <div class="department_thumb">
-                            <img src="img/department/6.png" alt="">
+                            <img src="img/department/16.jpeg" alt="">
                         </div>
                         <div class="department_content">
-                            <h3><a href="#">SulAmérica</a></h3>
+                            <h3><a href="#">Yamaha Consórcio</a></h3>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                             <img src="img/department/7.png" alt="">
                         </div>
                         <div class="department_content">
-                            <h3><a href="#">Tokiomarine Seguros</a></h3>
+                            <h3><a href="#">Tokio Marine Seguros</a></h3>
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                             <p>Fale com um de nossos atendentes através do nosso WhatsApp </p>
                         </div>
                         <div class="info_button">
-                            <a class="boxed-btn3-white" href="https://api.whatsapp.com/send?phone=5571999910999&text=Oi%2C%20quero%20saber%20mais%20sobre%20a%20cota%C3%A7%C3%A3o%20de%20seguros." target="_blank"> (71) 9 9991-0999</a>
+                            <a class="boxed-btn3-white" href="https://api.whatsapp.com/send?phone=5571999910999&text=Oi!%20Gostaria%20de%20saber%20mais%20sobre%20o%20produto%20de%20voc%C3%AAs" target="_blank"> (71) 99991-0999</a>
                         </div>
                     </div>
                 </div>

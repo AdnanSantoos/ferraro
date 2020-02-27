@@ -60,7 +60,7 @@
                         <h2 class="contact-title">Faça já sua simulação de consórcio.</h2>
                     </div>
                     <div class="col-md-12">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -75,7 +75,7 @@
                                 <div class="col-sm-6">
                                     <div class="input-group-icon form-control">
                                         <div class="form-select" id="default-select">
-                                            <select>
+                                            <select name="tipo">
                                             <option value="" disabled selected>Tipo</option>
                                             <option value="Automóvel">Automóvel</option>
                                             <option value="Imóvel">Imóvel</option>
@@ -126,6 +126,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/gijgo.min.js"></script>
         <script src="js/jquery.mask.js"></script>
+        <script src="js/jquery.prefix-input.js"></script>
     
         <!--contact js-->
         <script src="js/contact.js"></script>
@@ -136,6 +137,9 @@
     
         <script src="js/main.js"></script>
         <script>
+            $('.button-contactForm').click(function() {
+                alert("Formulário Enviado!! Entraremos em contato com você!")
+            })
             $('#datepicker').datepicker({
                 iconsLibrary: 'fontawesome',
                 icons: {

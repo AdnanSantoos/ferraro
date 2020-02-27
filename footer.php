@@ -1,5 +1,5 @@
 <?php echo '
-<a href="https://api.whatsapp.com/send?phone=5571999910999&text=Oi%2C%20quero%20saber%20mais%20sobre%20a%20cota%C3%A7%C3%A3o%20de%20seguros." class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=5571999910999&text=Oi!%20Gostaria%20de%20saber%20mais%20sobre%20o%20produto%20de%20voc%C3%AAs" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 <footer class="footer">
@@ -22,12 +22,6 @@
                                             <a href="https://instagram.com/ferraroconsultoria?igshid=1obw6cuz6fmwk" target="_blank" class=" link-icon">
                                                 <i class="fa fa-instagram"></i>
                                                   <span class="link-footer">@ferraroconsultoria</span> 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="mailto:atendimento@ferraroconsultoria.com.br" target="_blank" class=" link-icon">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                                  <span class="link-footer">Ferraro Consultoria</span> 
                                             </a>
                                         </li>
                                         <li>
@@ -71,7 +65,13 @@
                                 <div class="socail_links">
                                     <ul>
                                         <li>
-                                            <a class=" link-icon" target="_blank" href="https://api.whatsapp.com/send?phone=5571999910999&text=Oi%2C%20quero%20saber%20mais%20sobre%20a%20cota%C3%A7%C3%A3o%20de%20seguros.">
+                                            <a href="mailto:atendimento@ferraroconsultoria.com.br" target="_blank" class=" link-icon">
+                                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                <span class="link-footer">Ferraro Consultoria</span> 
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class=" link-icon" target="_blank" href="https://api.whatsapp.com/send?phone=5571999910999&text=Oi!%20Gostaria%20de%20saber%20mais%20sobre%20o%20produto%20de%20voc%C3%AAs">
                                                 <i class="fa fa-whatsapp"></i>
                                                   <span class="link-footer">(71) 99991-0999 </span> 
                                             </a> 
@@ -82,6 +82,7 @@
                                                   <span class="link-footer">(71) 3019-6864</span> 
                                             </a>
                                         </li>
+
                                     </ul>
                                 </div>
                             </div>
