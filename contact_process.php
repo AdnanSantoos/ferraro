@@ -14,9 +14,9 @@
 	$headers = "From: " . "site@site.com.br" . "\r\n";
 	$headers .= "Reply-To: ". "site@site.com.br" . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-    $subject = "Você tem uma mensagem pelo Site";
+    $subject = "Mensagem pelo Site";
 
     $logo = 'img/logo.png';
 	$link = '#';
@@ -29,7 +29,7 @@
 		$body .= "<td style='border:none;'><strong>Nome:</strong> {$name}</td>";
 		$body .= "<td style='border:none;'><strong>Telefone:</strong> {$telefone}</td>";
 		$body .= "</tr>";
-		$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$valor}</td></tr>";
+		$body .= "<tr><td style='border:none;'><strong>Valor:</strong> {$valor}</td></tr>";
 		$body .= "<tr><td></td></tr>";
 		$body .= "<tr><td style='border:none;'><strong>Tipo:</strong> {$tipo}</td></tr>";
 		$body .= "<tr><td></td></tr>";
