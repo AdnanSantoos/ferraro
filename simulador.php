@@ -147,7 +147,7 @@
              }
             });
             $('#valor').mask('000.000.000.000.000,00', {reverse: true});
-            $("#telefone").mask("(00) 0000-00009");
+            $("#telefone").mask("(00) 00000-0009");
             $('#datepicker2').datepicker({
                 iconsLibrary: 'fontawesome',
                 icons: {

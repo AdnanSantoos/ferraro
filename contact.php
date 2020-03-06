@@ -72,9 +72,14 @@
                                         <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" placeholder="Email">
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Assunto'" placeholder="Assunto">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" name="telefone" id="telefone" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Telefone'" placeholder="Telefone">
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -144,6 +149,9 @@
                  rightIcon: '<span class="fa fa-caret-down"></span>'
              }
             });
+
+            $("#telefone").mask("(00) 00000-0009");
+            
             $('#datepicker2').datepicker({
                 iconsLibrary: 'fontawesome',
                 icons: {

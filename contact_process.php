@@ -67,6 +67,7 @@
 		$body .= "<tr><td></td></tr>";
 		$body .= "</tbody></table>";
 		$body .= "</body></html>";
+		$subject = $_REQUEST['subject'];
 		$to = "felipe@ferraroconsultoria.com.br";
 	} 
 
