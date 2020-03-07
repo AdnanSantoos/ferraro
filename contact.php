@@ -130,6 +130,7 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/gijgo.min.js"></script>
+        <script src="js/jquery.mask.js"></script>
     
         <!--contact js-->
         <script src="js/contact.js"></script>

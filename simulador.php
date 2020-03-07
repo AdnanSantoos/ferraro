@@ -127,6 +127,7 @@
         <script src="js/gijgo.min.js"></script>
         <script src="js/jquery.mask.js"></script>
         <script src="js/jquery.prefix-input.js"></script>
+        <script src="js/jquery.maskMoney.js"></script>
     
         <!--contact js-->
         <script src="js/contact.js"></script>
@@ -146,7 +147,7 @@
                  rightIcon: '<span class="fa fa-caret-down"></span>'
              }
             });
-            $('#valor').mask('000.000.000.000.000,00', {reverse: true});
+            $("#valor").maskMoney({prefix:'R$ ', allowNegative: true, thousands:'.', decimal:',', affixesStay: false});
             $("#telefone").mask("(00) 00000-0009");
             $('#datepicker2').datepicker({
                 iconsLibrary: 'fontawesome',
