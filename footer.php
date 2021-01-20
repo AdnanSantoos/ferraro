@@ -6,7 +6,7 @@
             <div class="footer_top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <div class="footer_widget">
                                 <div class="footer_logo">
                                     <a href="#">
@@ -31,11 +31,11 @@
                                             </a>
                                         </li>
                                         <li>
-                                        <a href="https://twitter.com/FerraroConsult1" target="_blank" class=" link-icon">
-                                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                                              <span class="link-footer">Ferraro Consultoria</span> 
-                                        </a>
-                                    </li>
+                                            <a href="https://twitter.com/FerraroConsult1" target="_blank" class=" link-icon">
+                                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                <span class="link-footer">Ferraro Consultoria</span> 
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
     
@@ -57,7 +57,7 @@
     
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="footer_widget">
                                 <h3 class="footer_title">
                                         Contato
@@ -82,7 +82,24 @@
                                                   <span class="link-footer">(71) 3019-6864</span> 
                                             </a>
                                         </li>
-
+                                        <li>
+                                            <a href="javascript:void(0)" target="_blank" class=" link-icon">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                                <span class="link-footer" style="line-height: 22px;">
+                                                    Ouvidoria da Caixa Consórcios S.A<br>
+                                                    0800 702 4240
+                                                </span> 
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" target="_blank" class=" link-icon">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                                <span class="link-footer" style="line-height: 22px;">
+                                                SAC da Caixa Consórcios S.A<br>
+                                               0800 402 4280
+                                            </span> 
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
