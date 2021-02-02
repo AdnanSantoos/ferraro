@@ -96,7 +96,7 @@
                                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                                 <span class="link-footer" style="line-height: 22px;">
                                                 SAC da Caixa Consórcios S.A<br>
-                                               0800 402 4280
+                                               0800 702 4280
                                             </span> 
                                             </a>
                                         </li>
